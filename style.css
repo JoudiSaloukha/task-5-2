@@ -1,0 +1,9 @@
+.title::after  {
+    content: ""; 
+    display: block; 
+    width: 30%; 
+    height: 2px; 
+    border-radius:20%;
+    background-color: black; 
+    margin: 15px auto;
+  }

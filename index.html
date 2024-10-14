@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Converter </title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container mt-5 bg-white p-4 shadow rounded w-50">
+        <h1 class="text-center mb-5 text-primary title">Unit Converter</h1>
+        <div class="form-group">
+            <label for="value">Length in Meters</label>
+            <input type="number" class="form-control" id="value" placeholder="Enter Number">
+        </div>
+
+        <div class="form-group">
+            <label for="fromUnit">From Unit :</label>
+            <select class="form-control" id="fromUnit">
+                <option value="meter">meter</option>
+                <option value="centimeter">centimeter</option>
+                <option value="decimeter">decimeter</option>
+                <option value="millimeter">millimeter</option>
+                <option value="decameter">decameter</option>
+                <option value="hectometer">hectometer</option>
+                <option value="kilometer">kilometer</option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <label for="toUnit">To Unit :</label>
+            <select class="form-control" id="toUnit">
+                <option value="meter">meter</option>
+                <option value="centimeter">centimeter</option>
+                <option value="decimeter">decimeter</option>
+                <option value="millimeter">millimeter</option>
+                <option value="decameter">decameter</option>
+                <option value="hectometer">hectometer</option>
+                <option value="kilometer">kilometer</option>
+            </select>
+        </div>
+
+        <button class="btn btn-primary btn-block" id="convert">convert</button>
+
+        <h2 class="text-center mt-4 text-danger">Result: <span id="result"></span></h2>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
