@@ -44,5 +44,5 @@ document.getElementById('convert').addEventListener('click', function() {
         result = meters * 10;
     }
 
-    document.getElementById('result').innerText = result.toFixed(2); // عرض النتيجة بدقة نقطتين
+    document.getElementById('result').innerText = result; 
 });
